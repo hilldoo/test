@@ -3,183 +3,57 @@
 <head>
   <title>上海海渡信息科技有限公司</title>
 
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>Trident</title>
-    <!-- @ifdef DEBUG -->
-    <!--<link rel="stylesheet/less" href="less/main.less" type="text/css"/>
-    <script type="text/javascript">window.less = {env: 'development'}</script>
-    <script type="text/javascript" src="./bower_components/less/dist/less.js"></script>-->
-    <!-- @endif -->
-    <!-- @echo '<link rel="stylesheet" href="styles/main.min.css" type="text/css"/>'-->
-    <link rel="stylesheet" href="css/index-reset.css" type="text/css"/>
-    <link rel="stylesheet" href="css/index-main.css" type="text/css"/>
-    <!--<script type="text/javascript">
-        function detectmob() {
-            return navigator.userAgent.match(/Android/i)
-                    || navigator.userAgent.match(/webOS/i)
-                    || navigator.userAgent.match(/iPhone/i)
-                    || navigator.userAgent.match(/iPad/i)
-                    || navigator.userAgent.match(/BlackBerry/i)
-                    || navigator.userAgent.match(/Windows Phone/i);
+<!DOCTYPE HTML><html lang=zh-CN><head><meta charset=UTF-8><title>快牛金科官网</title><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"><meta http-equiv=X-UA-Compatible content="IE=edge, chrome=1"><meta content=no-siteapp http-equiv=Cache-Control><meta http-equiv=Cache-Control content=no-siteapp><meta name=renderer content=webkit><meta name=format-detection content="telephone=no, email=no"><meta http-equiv=pragma content=no-cache><meta http-equiv=Cache-Control content="no-cache, must-revalidate"><meta http-equiv=expires content=0><link rel=stylesheet href=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/js/bootstrap3.3.7/css/bootstrap-490d5d4d0b.min.css><link rel="shortcut icon" href=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/image/favicon-951c2d5c7a.ico><script src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/js/jquery/jquery-1-e1a1b01a12.11.3.min.js></script><script src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/js/bootstrap3.3.7/js/bootstrap-d6834e9430.min.js></script><script src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/js/Mousewheel-e6caec4885.js></script><link rel=stylesheet href=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/js/fullpage/fullpage-c59ef67800.min.css><link rel=stylesheet href=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/css/index-e20a8bf78e.css><script src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/js/respond/respond-78915bb8b3.min.js></script></head><body><script src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/js/fullpage/scrolloverflow-774ea392ed.min.js></script><script src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/js/fullpage/fullpage-f4c6dfe60e.min.js></script><div class="container-fluid nav"><div class="clearfix container"><div class="row nav-bar"><div class="col-xs-2 col-sm-4 col-md-4 col-lg-4 logo fl"><a href="/"><img src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/image/nav-logo-blue-fdeb6d14f5.png class=img-responsive></a></div><ul class="menu fr col-xs-10 col-sm-8 col-md-8 col-lg-8"><li title="title 1"><a href=/pages/news.html?1 class=@@class4>集团新闻</a></li><li title="title 2"><a href=/pages/ai.html?1>AI</a></li><li class="show-submenu hidden-sm hidden-md hidden-lg"><a href=javascript:void(0)>关于我们<span class=menu-car></span></a><div class=sub-menu><p class="p0 manager">管理团队</p><p class=p1>集团荣誉</p></div></li><li class=hidden-xs title="title 3"><a href=/pages/stockholders.html?1>关于我们</a></li><li title="title 4"><a href=/?1 class=active-item>首页</a></li></ul></div></div></div><script>
+  $(function(){
+    $('.show-submenu').click(function() {
+      window.location.href = '/pages/stockholders.html?1'
+    })
+    $('.sub-menu p').click(function(event) {
+      event.stopPropagation() ? event.stopPropagation() : event.cancelBubble = true
+      var indexp = $(this).index()
+      var lenp = $('.sub-menu p').length
+      for (var i = 0; i < lenp; i++) {
+        if (i === indexp) {
+          $('.p' + i).addClass('active-item')
+          $('.stockholders .page' + (i + 2)).removeClass('dis-none')
+        } else {
+          $('.p' + i).removeClass('active-item')
+          $('.stockholders .page' + (i + 2)).addClass('dis-none')
         }
-        if (detectmob()) {
-            window.location.href = '/m' + location.search;
-        }
-    </script>-->
-    <!--[if IE 6]>
-    <style>
-        .back-top {display: none;}
-    </style>
-    <script src="scripts/DD_belatedPNG_0.0.8a-min.js"></script>
-    <script>
-        document.write('<script type="text/javascript" id="domready" defer="defer" src="javascript:void(0)"><\/script>');
-        document.getElementById("domready").onreadystatechange = function() {
-            if (this.readyState == "complete") {
-                var imgs = document.getElementsByTagName('img')
-                for(i=0; i < imgs.length; i++) {
-                    if(imgs[i].src.toLowerCase().search(/\.png$/) != -1) {
-                        DD_belatedPNG.fixPng(imgs[i]);
+      }
+      $(this).parent().addClass('dis-none')
+    })
+  })
+</script><div id=fullpage class=index><div class=section><div class="container-fluid hidden-xs" id=page1><img src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/image/index-page1-bg-ball-311dcedd64.png class="img-responsive page1-ball"> <img src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/image/index-page1-word-cd88a3dbea.png class="img-responsive page1-txt"> <a href=#page2><img src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/image/index-page1-icon-2009ed7b9f.png class="img-responsive page1-icon"></a></div><div class="container-fluid visible-xs" id=page1><img src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/image/index-page1-0a46ca5883.png class=img-responsive></div></div><div class=section><div class=container-fluid id=page2><div class=container><div class="row tac"><h3 class=title><span>投</span> <span>资</span> <span>方</span> <span>介</span> <span>绍</span></h3></div><div class="col-lg-4 list-item"><div class=row><div class="col-lg-12 col-md-12 col-sm-3 col-xs-3 tac"><img src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/image/index-page2-1-783ce51f53.png class=img-responsive><h4>蓝驰创投</h4></div><div class="col-lg-12 col-md-12 col-sm-9 col-xs-9 tam"><p>一家来自美国的全球性的早期风险投资基金，管理资金规模超过100亿元人民币。成功投资过趣店、唱吧、春雨医生、赶集网、瓜子二手车、美丽说等国内一线互联网公司。</p></div></div><div class=border-bottom></div></div><div class="col-lg-4 list-item"><div class=row><div class="col-lg-12 col-md-12 col-sm-3 col-xs-3 tac"><img src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/image/index-page2-2-65818ebeff.png class=img-responsive><h4>元璟资本</h4></div><div class="col-lg-12 col-md-12 col-sm-9 col-xs-9 tam"><p>曾经投出ofo共享单车、每日优鲜、探探、美丽联合集团等多个独角兽或知名项目。团队由来自于一线互联网公司核心岗位的专家和在一线VC基金从事多年的资深投资人组成。</p></div></div><div class=border-bottom></div></div><div class=col-lg-4><div class=row><div class="col-lg-12 col-md-12 col-sm-3 col-xs-3 tac"><img src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/image/index-page2-3-dd22a4c7f9.png class=img-responsive><h4>京东数科</h4></div><div class="col-lg-12 col-md-12 col-sm-9 col-xs-9 tam"><p>京东数字科技集团打造的“一站式”在线投融资平台，以“成为国内最值得信赖的互联网投融资平台”为使命，依托京东集团强大的资源，发挥整合和协同效应优势。</p></div></div></div></div></div><div class=container-fluid id=page3><div class="container-fluid page3-content"><div class=container><div class="row tac"><h3 class=title><span>企</span> <span>业</span> <span>文</span> <span>化</span></h3></div><div class="row page3-content-1"><div class="col-lg-6 col-md-6 col-xs-6"><div class=row><div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 text-center"><img src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/image/index-page3-l1-2-d711da003b.png><p class=page3-p1>诚实<br>正直</p></div><div class="col-lg-8 col-md-8 col-sm-7 col-xs-0"><p class="hidden-xs page3-p2">就事论事不谋私<br>兼顾公司和客户的利益</p></div></div></div><div class="col-lg-6 col-md-6 col-xs-6"><div class=row><div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 text-center"><img src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/image/index-page3-r1-2-0f9af43d94.png><p class=page3-p1>勤奋<br>拼搏</p></div><div class="col-lg-8 col-md-8 col-sm-7 col-xs-0"><p class="hidden-xs page3-p2">充满好奇心，保持学习自驱力<br>高效做事，保持最大热情做每一件事</p></div></div></div></div><div class="row page3-content-1 page3-content-2"><div class="col-lg-6 col-md-6 col-xs-6"><div class=row><div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 text-center"><img src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/image/index-page3-l2-2-f87aa3af6f.png><p class=page3-p1>价值<br>创造</p></div><div class="col-lg-8 col-md-8 col-sm-7 col-xs-0"><p class="hidden-xs page3-p2">追求结果，持续提升个人价值<br>提升自我价值，为公司价值提升做贡献</p></div></div></div><div class="col-lg-6 col-md-6 col-xs-6"><div class=row><div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 text-center"><img src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/image/index-page3-r2-2-d9ce7a0227.png><p class=page3-p1>拥抱<br>变化</p></div><div class="col-lg-8 col-md-8 col-sm-7 col-xs-0"><p class="hidden-xs page3-p2">勇于接受新人新事，勇于试错探索<br>谦逊的态度，行动迅捷，快速迭代</p></div></div></div></div></div></div></div><div class="container-fluid footer footer-top"><div class=container><div class="row footer-top-content"><div class="col-lg-2 col-md-2 footer-top-img hidden-xs hidden-sm"></div><div class="col-lg-2 col-md-2 footer-top-img1 hidden-lg hidden-md"><img src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/image/nav-logo-black-57cf23178e.png></div><div class="col-lg-4 col-md-4 footer-top-p"><p>联系电话：021-2357 0868</p><p>商务合作：hezuo@kuainiugroup.com</p></div><a href=# class="col-lg-1 col-lg-offset-4 col-md-1 col-md-offset-4 tar up-to-top ft-dis-none"><img src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/image/up-to-top2-84224f5587.png></a></div><img src=https://paydayloanv4-1251122539.file.myqcloud.com/web/gcc/assets/image/footer-qr-21c6e7a9dd.png class="qr hidden-lg hidden-md"></div></div><div class="container-fluid tac footer-down"><p>&copy; 2018 上海淡红金融科技有限公司. All Rights Reserved.<br>沪ICP备17016052号-1</p></div></div></div><script>
+        $(function () {
+            // 进入页面获取屏幕宽度，大于768才初始化fullpage
+            if ($('body').width() > 768) {
+                $('#fullpage').fullpage({
+                    anchors: ['firstPage', 'lastPage'],
+                    licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+                    scrollOverflow: true,
+                    scrollOverflowReset: true,
+                    onLeave: function(origin, destination, direction){
+                        console.log(origin, destination, direction)
+                        // if (destination.index > 0) {
+                        //     $('.up-to-top').css('display', "block")
+                        // } else {
+                        //     $('.up-to-top').css('display', "none")
+                        // }
                     }
-                }
-
-                var children = document.body.getElementsByTagName('*');
-                for(i=0; i < children.length; i++) {
-                    var bg = children[i].currentStyle.backgroundImage;
-                    if(bg != 'none' && bg.toLowerCase().search(/\.png("|\')?\)$/) != -1) {
-                        DD_belatedPNG.fixPng(children[i]);
-                    }
-                }
+                });
             }
+            $('.sub-menu').addClass('dis-none')
+            $('.up-to-top').click(function(){
+                // console.log($(window).scrollTop(0))
+                fullpage_api.moveTo(1);
+            })
+           
+        })
+
+        window.onbeforeunload = function () {
+            //刷新后页面自动回到顶部
+            document.documentElement.scrollTop = 0;  //ie下
+            document.body.scrollTop = 0;  //非ie
         }
-    </script>
-    <![endif]-->
-</head>
-<body>
-<div class="container">
-    <div class="banner" style="background-color: #051218;">
-        <div class="header" id="header">
-            <div class="logo">
-                <img src="./images/logo.png"/>
-            </div>    
-            <div class="titles">
-                <span class="title active" data-hash="#header">首页</span>
-                <span class="title" data-hash="#intro">产品简介</span>
-                <span class="title" data-hash="#company">公司介绍</span>
-                <span class="title" data-hash="#contact">联系我们</span>
-            </div> 
-        </div>
-        <div style="position: relative;margin: 0 auto;max-width: 1024px;">
-            <img class="banner-text" src="./images/banner-text.png"/>
-        </div>
-    </div>
-    <div class="intro"> 
-        <div class="wrapper">
-            <img src="./images/intro1.png"/>
-            <div class="title">模型验证有效</div>
-            <div class="dot"></div>
-            <div class="desc">10年金融行业经验，<br/>模型均经过众多银行、<br/>互联网金融行业验证</div>
-        </div>  
-        <div class="wrapper">
-            <img src="./images/intro2.png"/>
-            <div class="title">大数据分析</div>
-            <div class="dot"></div>
-            <div class="desc">基于大数据分析和机器学习，<br/>高纬度自适应优化模型、<br/>满足不同场景</div>
-        </div>  
-        <div class="wrapper">
-            <img src="./images/intro3.png"/>
-            <div class="title">极致的服务理念</div>
-            <div class="dot"></div>
-            <div class="desc">让不具备充分技术资源的企业，<br/>团队快速上手、<br/>从0到100打造全网领先金融产品</div>
-        </div>  
-        <div class="wrapper">
-            <img src="./images/intro4.png"/>
-            <div class="title">安全稳定可靠</div>
-            <div class="dot"></div>
-            <div class="desc">国内一流技术团队，<br/>打造安全、稳定、可靠的<br/>产品与系统</div>
-        </div>  
-    </div> 
-    <div class="product step" id="intro">
-        <div class="title">产品简介</div>
-        <div class="dot"></div>
-        <div>
-            <div class="wrapper">
-                <img src="./images/product1.png"/>
-                <div class="desc">提供信用相关模型、风险策略、IT部署等服务，为客户提供完整的风险管理的解决方案，提高风险对抗能力</div>
-            </div>
-            <div class="wrapper">
-                <img src="./images/product2.png"/>
-                <div class="desc">基于大数据算法以及人工智能技术，定制信用模型，量化个人及小微企业的信用风险</div>
-            </div>
-        </div>    
-        <div>
-            <div class="wrapper">
-                <img src="./images/product3.png"/>
-                <div class="desc">面向风控业务人员的简单、易用的产品，极易上手</div>
-            </div>
-            <div class="wrapper">
-                <img src="./images/product4.png"/>
-                <div class="desc">对金融市场各领域的市场、目标客群、风险特征进行分析与预测，提供行业研究报告</div>
-            </div>
-        </div>   
-    </div>
-    <div class="company step" id="company">
-        <div class="container">
-            <div class="title">公司介绍</div>
-            <div class="dot"></div>
-            <div>
-                <img src="./images/computer.png"/>
-                <div class="content">
-                    <div class="name">
-                        上海誉渡信息技术有限公司
-                    </div>
-                    <div class="desc">
-                        我们的团队（上海誉渡信息技术有限公司）通过大数据及人工智能技术，结合我们多年的行业经验，研发了以大数据、模型化、决策流、营销与风控业务逻辑为导向的，配以拖拉拽超高灵活可操作性的决策引擎，可以帮助金融机构在客户全生命周期分析、落地及使用规则，模型、策略上提高效率，实现业务的专业化和精细化管理。誉渡除了提供Trident 决策引擎，还提供了一整套风控解决方案。
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="numbers">
-        <div class="items">
-            <div class="item">
-                <div class="title">>100M</div>
-                <div class="dot"></div>
-                <span>数据量</span>
-            </div>
-            <div class="split-vertical"></div>
-            <div class="item">
-                <div class="title">>1000</div>
-                <div class="dot"></div>
-                <span>风险因子</span>
-            </div>
-            <div class="split-vertical"></div>
-            <div class="item">
-                <div class="title"><1s</div>
-                <div class="dot"></div>
-                <span>响应时间</span>
-            </div>
-            <div class="split-vertical"></div>
-            <div class="item">
-                <div class="title">>99.99%</div>
-                <div class="dot"></div>
-                <span>可用性</span>
-            </div>
-        </div>
-    </div>
-    <div class="contact step" id="contact">
-        <div class="title">联系我们</div>
-        <div class="dot"></div>
-        <div class="email">
-            <div style="padding-top: 15px;">bd@trident3.cn<br/>021-64975838</div>
-        </div>
-    </div>
-</div>
-<div class="footer">
-</div>
-</body>
-<script src="js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="js/index-main.js"></script>
-</html>
+    </script></body></html>
