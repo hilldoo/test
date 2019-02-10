@@ -1,6 +1,6 @@
 ## Welcome to 海渡财务咨询
 
-**上海海渡信息科技有限公司**是一家专业从事注册公司、代理记账、管理咨询的头脑型专业公司，为企业提供一站式的财务咨询管理服务。
+**上海海渡信息科技有限公司**是一家专业从事**注册公司、代理记账、管理咨询**的头脑型专业公司，为企业提供一站式的财务咨询管理服务。
 
 我们汇集了各行各业、优秀、专业的财务精英，他们经验丰富，能够轻松应对各种税务难题。
 
@@ -17,7 +17,7 @@ Shanghai Haidu Information Technology Co., Ltd. is a brainy professional company
 我们的服务理念是：**“海有舟可渡，山有路可行。不怕困难，砥砺前行。”**
 
 ```markdown
-Syntax highlighted code block
+
 
 1、公司注册
 2、代理记账
@@ -25,10 +25,12 @@ Syntax highlighted code block
 4、财务审计
 5、工商年报
 6、所得税汇算清缴
+7、高新技术企业认定申报
+8、软件企业认定申报
 
 and  so  on.
 
-[Link](url) and ![Image](src)
+
 ```
 
 For more details call   us .
