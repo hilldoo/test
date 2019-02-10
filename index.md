@@ -10,7 +10,7 @@
 
 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Shanghai Haidu Technology Co., Ltd. is a brainy professional company specializing in registration company, agent bookkeeping, management consulting, providing one-stop financial consulting and management services for enterprises.
 
 ### 服务内容
 
