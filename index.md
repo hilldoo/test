@@ -1,6 +1,6 @@
 ## Welcome to 海渡财务咨询
 
-海渡是一家专业从事注册公司、代理记账、管理咨询的头脑型专业公司，为企业提供一站式的财务咨询管理服务。
+**上海海渡信息科技有限公司**是一家专业从事注册公司、代理记账、管理咨询的头脑型专业公司，为企业提供一站式的财务咨询管理服务。
 
 我们汇集了各行各业、优秀、专业的财务精英，他们经验丰富，能够轻松应对各种税务难题。
 
@@ -9,12 +9,12 @@
 选择我们，助您的事业蒸蒸日上，鹏程万里。
 
 
+Shanghai Haidu Information Technology Co., Ltd. is a brainy professional company specializing in registration company, agent bookkeeping, management consulting, providing one-stop financial consulting and management services for enterprises.
 
-Shanghai Haidu Technology Co., Ltd. is a brainy professional company specializing in registration company, agent bookkeeping, management consulting, providing one-stop financial consulting and management services for enterprises.
 
 ### 服务内容 Service Items
 
-我们的服务理念是“海有舟可渡，山有路可行。不怕困难，砥砺前行。”
+我们的服务理念是：***“海有舟可渡，山有路可行。不怕困难，砥砺前行。”***
 
 ```markdown
 Syntax highlighted code block
@@ -48,6 +48,6 @@ List [小规模纳税人](https://baike.baidu.com/item/%E5%B0%8F%E8%A7%84%E6%A8%
 
 ### 联系我们  Support or Contact  
 
-办公地址：上海市黄浦区淮海中路K11办公大楼     
+办公地址：上海市黄浦区淮海中路K11办公大楼  
 联系人： 文老师   186-2100-5540
 欢迎来电垂询！
