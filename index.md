@@ -45,6 +45,6 @@ For more details , please call us.
 ### 联系我们  Support or Contact  
 
 - 办公地址：上海市黄浦区淮海中路K11办公大楼 
-- 邮箱：wenxiaoqing@yy.com
+- 邮箱：wenxiaoqing520@126.com
 - 联系人： 文老师     186-2100-5540
 - 欢迎来电垂询！
