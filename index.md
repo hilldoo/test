@@ -33,7 +33,7 @@ and  so  on.
 
 ```
 
-For more details call   us .
+For more details , please call us.
 
 ### 价格 Service price
 - [小规模纳税人](https://baike.baidu.com/item/%E5%B0%8F%E8%A7%84%E6%A8%A1%E7%BA%B3%E7%A8%8E%E4%BA%BA/5503770?fr=aladdin)：300元人民币/月
