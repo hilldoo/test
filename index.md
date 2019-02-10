@@ -12,7 +12,7 @@
 
 Shanghai Haidu Technology Co., Ltd. is a brainy professional company specializing in registration company, agent bookkeeping, management consulting, providing one-stop financial consulting and management services for enterprises.
 
-### 服务内容
+### 服务内容 Service Items
 
 我们的服务理念是“海有舟可渡，山有路可行。不怕困难，砥砺前行。”
 
